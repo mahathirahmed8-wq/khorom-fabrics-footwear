@@ -1,0 +1,8 @@
+{
+  "name": "খড়ম - Khorom | Fabrics & Footwear",
+  "description": "প্রিমিয়াম জেন্টস ফ্যাশন স্টোর - জামাকাপড়, জুতো, সানগ্লাস, ঘড়ি ও মানিব্যাগ।",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

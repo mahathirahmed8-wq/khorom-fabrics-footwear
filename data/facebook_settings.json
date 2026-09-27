@@ -1,0 +1,20 @@
+{
+  "pageConfig": {
+    "pageId": "",
+    "pageName": "খড়ম - Khorom",
+    "pageUrl": "https://www.facebook.com/khoromstore",
+    "accessToken": "",
+    "autoDetectDuplicates": true,
+    "syncIntervalMinutes": 15,
+    "lastSyncedAt": null
+  },
+  "connectionState": {
+    "isConnected": false,
+    "selectedPage": null,
+    "managedPages": [],
+    "lastSyncedAt": null,
+    "connectedUserName": null,
+    "appId": ""
+  },
+  "pendingPosts": []
+}

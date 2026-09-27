@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #060D17;
+    --color-secondary: #0B1F33;
+    --color-accent: #C6A15B;
+    --color-gold: #C6A15B;
+    --color-bg: #060D17;
+    --color-surface: #0B1F33;
+    --color-text: #FAF8F5;
+    --color-border: #1B2D42;
+  }
+
+  body {
+    background-color: #060D17;
+    color: #FAF8F5;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+}
+
+/* Luxury Men's Fashion Brand Typography & Styling */
+.font-serif-luxury {
+  font-family: "Playfair Display", Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+/* Premium Refined Buttons */
+.btn-primary-luxury {
+  background-color: #0B1F33;
+  color: #FAF8F5;
+  border: 1px solid #1D3550;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.03em;
+  transition: all 0.2s ease-in-out;
+}
+.btn-primary-luxury:hover {
+  background-color: #122B45;
+  border-color: #C6A15B;
+  color: #FFFFFF;
+}
+
+.btn-accent-luxury,
+.gold-gradient-btn {
+  background: linear-gradient(135deg, #C6A15B 0%, #A8813B 100%);
+  color: #060D17;
+  border: 1px solid #D4B26F;
+  border-radius: 0.375rem;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease-in-out;
+}
+.btn-accent-luxury:hover,
+.gold-gradient-btn:hover {
+  background: linear-gradient(135deg, #D4B26F 0%, #B8924A 100%);
+  border-color: #E2C78E;
+  color: #060D17;
+  box-shadow: 0 2px 10px rgba(198, 161, 91, 0.3);
+}
+
+.btn-outline-luxury {
+  background-color: transparent;
+  color: #C6A15B;
+  border: 1px solid #C6A15B;
+  border-radius: 0.375rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 0.02em;
+  transition: all 0.2s ease-in-out;
+}
+.btn-outline-luxury:hover {
+  background-color: #0B1F33;
+  color: #FFFFFF;
+  border-color: #D4B26F;
+}
+
+/* Custom Slim Scrollbars */
+.slim-scrollbar::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+.slim-scrollbar::-webkit-scrollbar-track {
+  background: rgba(11, 31, 51, 0.5);
+}
+.slim-scrollbar::-webkit-scrollbar-thumb {
+  background: #C6A15B;
+  border-radius: 2px;
+}

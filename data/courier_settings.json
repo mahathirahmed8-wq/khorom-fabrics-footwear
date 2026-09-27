@@ -1,0 +1,14 @@
+{
+  "pathao": {
+    "enabled": false,
+    "environment": "sandbox",
+    "clientId": "",
+    "clientSecret": "",
+    "username": "",
+    "password": "",
+    "storeId": "",
+    "webhookSecret": "khorom_pathao_webhook_sec_2026",
+    "callbackUrl": "/api/courier/pathao/webhook",
+    "autoDispatchOnConfirm": false
+  }
+}

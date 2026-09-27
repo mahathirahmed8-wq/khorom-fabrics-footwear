@@ -1,0 +1,20 @@
+{
+  "entities": {
+    "products": {
+      "title": "Product",
+      "description": "Store products collection"
+    },
+    "categories": {
+      "title": "Category",
+      "description": "Store categories collection"
+    },
+    "settings": {
+      "title": "Setting",
+      "description": "Site customization and operational settings"
+    },
+    "orders": {
+      "title": "Order",
+      "description": "Customer orders"
+    }
+  }
+}
